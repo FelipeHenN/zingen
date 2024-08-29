@@ -55,14 +55,14 @@
         content: "";
         position: absolute;
         border-radius: inherit;
-        inset: 1.5px;
+        inset: 1px;
         background-color: var(--bg-color);
     }
 
     &::after {
         content: attr(aria-label);
         background-color: var(--btn-bg-color);
-        -webkit-background-clip: text;
+        -webkit-background-clip:  text;
         background-clip: text;
         color: transparent;
         position: relative;
